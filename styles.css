@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(img/background.png);
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.main_container {
+width: 100%;
+}
+
+header {
+    height: 120px;
+    background-color: #663e56;
+    padding: 0 55px 0 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_info_logo {
+    display: flex;
+
+}
+
+.header_info_logo_label {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+
+}
+
+.header_info_logo_label_moscow {
+    font-size: 12px;
+
+}
+
+.header_info_logo_label_name {
+    font-family: 'Neucha', sans-serif;
+    font-size: 30px;
+
+}
