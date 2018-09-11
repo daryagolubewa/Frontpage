@@ -137,11 +137,13 @@ header > div {
 
 .header_purchase {
     display: flex;
+    justify-content: space-between;
     width: 1170px;
 
 }
 .header_purchase_menu {
     display: flex;
+    align-items: center;
 }
 
 .header_purchase_menu ul {
@@ -161,3 +163,16 @@ header > div {
 .header_purchase_menu_special {
     color: #f59dcb;
 }
+
+.header_border {
+    margin-bottom: 7px;
+}
+
+.header_purchase_menu_icons {
+    display: flex;
+}
+
+.header_purchase_menu_icons > div {
+     margin-left: 15px;
+ }
+
