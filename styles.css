@@ -9,7 +9,7 @@ body {
 }
 
 .main_container {
-width: 100%;
+    width: 1170px;
 }
 
 header {
@@ -22,13 +22,12 @@ header {
 
 .header_info_logo {
     display: flex;
-
 }
 
 .header_info_logo_label {
     display: flex;
     flex-direction: column;
-    margin-right: 8px;
+    padding-top: 20px;
 
 }
 
@@ -40,5 +39,13 @@ header {
 .header_info_logo_label_name {
     font-family: 'Neucha', sans-serif;
     font-size: 30px;
+
+}
+
+.header_info_logo_pic {
+
+    position: absolute;
+    left: 228px;
+    top: 12px;
 
 }
