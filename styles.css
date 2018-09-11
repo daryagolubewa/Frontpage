@@ -1,23 +1,33 @@
 body {
-    height: 100%;
-    width: 100%;
-    background-image: url(img/background.png);
-    position: absolute;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #ffffff;
-}
+     height: 100%;
+     width: 100%;
+     background-image: url(img/background.png);
+     position: absolute;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     color: #ffffff;
+ }
 
 .main_container {
-    width: 1170px;
+
 }
 
-header {
+header > div {
     height: 120px;
+    width: 100%;
     background-color: #663e56;
-    padding: 0 55px 0 55px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.header_border {
+    width: 100%;
+    border-top: 1px solid #e8f8ff;
+}
+
+.header_info {
+    width: 1170px;
 }
 
 .header_info_logo {
@@ -43,9 +53,9 @@ header {
 }
 
 .header_info_logo_pic {
-
     position: absolute;
-    left: 228px;
+    background-color: #663e56;
+    left: 355px;
     top: 12px;
 
 }
