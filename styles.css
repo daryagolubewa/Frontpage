@@ -28,6 +28,12 @@ header > div {
 
 .header_info {
     width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_info_main {
+    display: flex;
 }
 
 .header_info_logo {
@@ -43,13 +49,11 @@ header > div {
 
 .header_info_logo_label_moscow {
     font-size: 12px;
-
 }
 
 .header_info_logo_label_name {
     font-family: 'Neucha', sans-serif;
     font-size: 30px;
-
 }
 
 .header_info_logo_pic {
@@ -57,5 +61,103 @@ header > div {
     background-color: #663e56;
     left: 355px;
     top: 12px;
+}
 
+.header_info_menu {
+    margin-left: 14px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header_info_menu ul {
+    margin-bottom: 5px;
+}
+
+.header_info_menu ul li {
+    display: inline;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.header_info_contacts {
+    margin-top: 10px;
+}
+
+.header_info_contacts__phone {
+    display: flex;
+}
+
+.header_info_contacts__phone img {
+    margin-right: 5px;
+}
+
+.header_info_contacts__phone p {
+    font-size: 16px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+
+.header_info_contacts__phone .button {
+    border-radius: 20px;
+    height: 19px;
+    width: 126px;
+    background-color: #f59dcb;
+    border-color: #f59dcb;
+    font-size: 12px;
+    color: #663e56;
+    text-align: center;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.header_info_contacts__networks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_info_contacts__networks .networks_telegram {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.header_info_contacts__networks .networks_viber {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.header_info_contacts__networks .networks_number {
+    font-size: 12px;
+}
+
+.header_info_contacts__workhours {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_purchase {
+    display: flex;
+    width: 1170px;
+
+}
+.header_purchase_menu {
+    display: flex;
+}
+
+.header_purchase_menu ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.header_purchase_menu ul li {
+    display: inline;
+    margin-right: 12px;
+    cursor: pointer;
+
+}
+
+.header_purchase_menu_special {
+    color: #f59dcb;
 }
