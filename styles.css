@@ -57,20 +57,21 @@ header > div {
 }
 
 .header_info_logo_pic {
-    position: absolute;
+    position: relative;
     background-color: #663e56;
-    left: 355px;
+    left: 5px;
     top: 12px;
 }
 
 .header_info_menu {
-    margin-left: 14px;
+    //margin-left: 14px;
     display: flex;
     align-items: flex-end;
 }
 
 .header_info_menu ul {
     margin-bottom: 5px;
+    padding-left: 10px;
 }
 
 .header_info_menu ul li {
