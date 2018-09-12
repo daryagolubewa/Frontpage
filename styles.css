@@ -217,7 +217,14 @@ main > div {
 }
 
 .main_info__pictures {
+    width: 111px;
+}
 
+.main_info__pictures__pics {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .main_info__info p {
