@@ -177,11 +177,22 @@ header > div {
      margin-left: 15px;
  }
 
-.main {
+main > div {
    // width: 1170px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+
+.main {
     margin-top: 15px;
+    /*width: 1170px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    margin-right: 0px; */
 }
 
 .carousel-indicators {
@@ -195,7 +206,22 @@ header > div {
     border-radius: 100%;
 }
 
-.carousel {
+.main_info {
+    width: 1170px;
+    height: 150px;
+    background-color: #663e56;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
 
+.main_info__pictures {
+
+}
+
+.main_info__info p {
+    text-align: center;
+    font-size: 12px;
 }
 
