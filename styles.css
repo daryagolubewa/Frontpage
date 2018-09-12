@@ -177,3 +177,25 @@ header > div {
      margin-left: 15px;
  }
 
+.main {
+   // width: 1170px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.carousel-indicators {
+    justify-content: flex-start;
+    margin-left: 9%;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel {
+
+}
+
